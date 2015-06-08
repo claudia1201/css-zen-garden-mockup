@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: ff-tisa-web-pro, serif;
+
+}
+
+body{
+	background-image: url(assets/mason-teaching.jpg);
+	background-size: cover;
+}
+
+/*HEADER*/
+
+.header{
+	position: absolute;
+	float:left;
+	top: 13%;
+	left: 5%;
+	width: 13%;
+}
+
+.logo-image {
+	width: 100px;
+  	height: 90px;
+  	margin: 0px 10px;
+  	opacity: 0.9;
+}
+
+.header a{
+	display: block;
+	text-decoration: none;
+	border-top: 2px dotted #333333;
+	padding: 7px;
+	margin-left: 10px;
+}
+
+.header-links-left{
+	background-color: white;
+	opacity: 0.8
+}
+
+.header-link{
+	color: #333333;
+	opacity: 1;
+}
+
+.header-links-right{
+	background-color: #333333;
+	opacity: 0.8;
+}
+
+.header-gray-link{
+	color: white;
+	opacity: 1;
+}
+
+.header-button-link{
+	color: white;
+	opacity: 1;
+}
+/*SUB-HEADER*/
+
+.subheader{
+	position: relative; 
+	width: 100%;
+	background-color: #333333;
+	color: white;
+	border-bottom:2px dotted white;
+}
+
+.subheader div{
+	display: inline-block;
+}
+
+.course-title{
+	font-size: 30px;
+	margin: 15px 40px;
+}
+
+.subheader-links{
+	
+	margin-left: 40%;
+}
+
+.subheader-links a{
+	margin-right: 35px;
+}
+.subheader-link {
+	text-decoration: none;
+	color: white;
+}
+
+/*CONTENT*/
+
+.content{
+	position: absolute;
+	float: right;
+	top: 17%;
+	left: 20%;
+	right: 3%;
+	color: #333333;
+	background-color: white;
+	opacity: 0.8;
+	padding: 10px 30px;
+}
+
+.tagline{
+	font-style: italic;
+	font-size: 25px;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.content p{
+
+	margin: 15px;
+}
+
+.key-item{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	width: 49%;
+	margin: 15px 0px;
+}
+
+.key-image{
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	display: inline-block;
+}
+
+.key-text{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: top;
+}
+
+
+.clock{
+	background-image: url(assets/clock.png);
+}
+.tetris{
+	background-image: url(assets/tetris.png);
+	float: right;
+	margin: 0px;
+}
+.interface{
+	background-image: url(assets/front-end-interface.png);
+}
+.lambda{
+	background-image: url(assets/lambda.png);
+	float: right;
+	margin: 0px;
+}
+.computers{
+	background-image: url(assets/computers.png);
+}
+.brain{
+	background-image: url(assets/brain-guy.png);
+	float: right;
+	margin: 0px;
+}
+
